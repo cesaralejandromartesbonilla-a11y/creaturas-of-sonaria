@@ -1,0 +1,41 @@
+﻿# Godot 4 — archivos generados automáticamente (NO versionar)
+.godot/
+
+# Importados de assets (Godot los regenera)
+*.import
+*.uid
+
+# Archivos de exportación
+export.cfg
+export_presets.cfg
+
+# Binarios exportados (ignorar por OS)
+*.aar
+*.apk
+*.dll
+*.exe
+*.pck
+*.wasm
+*.zip
+
+# Android específico
+*.keystore
+android/
+
+# Mono / C# build artifacts
+.mono/
+data_*/
+mono_crash.*.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
